@@ -11,3 +11,8 @@ for name in messy_names:
     clean_name = name.strip().lower()
     print(clean_name)
 
+# c) fomatted summary of the 1st game 
+
+top_game = video_game_sales[0]
+
+print(f"#1 Best Seller: {top_game[NAME]} ({top_game[YEAR]}) - ${top_game[GLOBAL_SALES]:.2f}M global sales")
