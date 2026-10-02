@@ -12,4 +12,18 @@ for game in video_game_sales:
 
 print(sales_by_genre)
 
+# b) Count how many games each publisher has
+games_per_publisher = {}
+
+for game in video_game_sales:
+    publisher = game[PUBLISHER]
+
+    if publisher not in games_per_publisher:
+        games_per_publisher[publisher] = 0
+
+    games_per_publisher[publisher] += 1
+
+print(games_per_publisher)
+
+
 
