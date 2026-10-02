@@ -18,4 +18,4 @@ print(len(video_game_sales))
 
 dataset_info = (len(video_game_sales), 10, 'Video Game Sales')
 
-print(dataset_info)
+print(dataset_info) 
