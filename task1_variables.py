@@ -10,4 +10,4 @@ print(f"Average global sales: {avg_global_sales:.2f} million copies")
 
 # c) Calculate Wii Sports' percentage of total global sales
 top_game_share = (video_game_sales[0][GLOBAL_SALES] / total_global_sales) * 100
-print(f"Wii Sports represents {top_game_share:.2f}% of total global sales.")
+print(f"Wii Sports represents {top_game_share:.2f}% of total global sales.") 
