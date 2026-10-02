@@ -27,4 +27,11 @@ print(platform_games)
 sports_games = filter_by_genre(video_game_sales, 'Sports')
 print(sports_games)
 
+# c) Get a formatted summary of a game
+def get_summary(game):
+    return f"{game[NAME]} ({game[YEAR]}) - {game[GENRE]} - ${game[GLOBAL_SALES]:.2f}M"
 
+
+# Print a summary of every game
+for game in video_game_sales:
+    print(get_summary(game))
