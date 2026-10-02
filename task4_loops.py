@@ -32,4 +32,14 @@ elif total_jp_sales > total_na_sales:
 else:
     print("Both regions had the same sales.")
 
+# d) Create a list of Nintendo games
+nintendo_games = []
+
+for game in video_game_sales:
+    if game[PUBLISHER] == 'Nintendo':
+        nintendo_games.append(game[NAME])
+
+print(nintendo_games)
+print("Number of Nintendo games:", len(nintendo_games))
+
 
