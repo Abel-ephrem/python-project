@@ -6,3 +6,11 @@ for game in video_game_sales:
 
 print(game_names)
 
+# b) Add the new game to the dataset
+video_game_sales.append(
+    [21, 'Animal Crossing: New Horizons', 'NS', 2020, 'Simulation',
+     'Nintendo', 7.45, 5.21, 7.37, 31.18]
+)
+
+print(len(video_game_sales))
+
