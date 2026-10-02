@@ -29,7 +29,7 @@ print(sports_games)
 
 # c) Get a formatted summary of a game
 def get_summary(game):
-    return f"{game[NAME]} ({game[YEAR]}) - {game[GENRE]} - ${game[GLOBAL_SALES]:.2f}M"
+    return f"{game[NAME]} ({game[YEAR]}) - {game[GENRE]} - ${game[GLOBAL_SALES]:.2f}M" 
 
 
 # Print a summary of every game
