@@ -14,3 +14,8 @@ video_game_sales.append(
 
 print(len(video_game_sales))
 
+# c) Create a tuple containing dataset metadata
+
+dataset_info = (len(video_game_sales), 10, 'Video Game Sales')
+
+print(dataset_info)
