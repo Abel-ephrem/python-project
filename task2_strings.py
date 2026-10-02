@@ -15,4 +15,4 @@ for name in messy_names:
 
 top_game = video_game_sales[0]
 
-print(f"#1 Best Seller: {top_game[NAME]} ({top_game[YEAR]}) - ${top_game[GLOBAL_SALES]:.2f}M global sales")
+print(f"#1 Best Seller: {top_game[NAME]} ({top_game[YEAR]}) - ${top_game[GLOBAL_SALES]:.2f}M global sales") 
